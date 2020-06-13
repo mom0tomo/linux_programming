@@ -38,7 +38,7 @@ func do_cat(path string) (output error) {
 			}
 			break
 		}
-		fmt.Println(string(buf[:bytesread]))
+		fmt.Print(string(buf[:bytesread]))
 	}
 	return nil
 }

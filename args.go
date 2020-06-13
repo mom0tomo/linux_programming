@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"flag"
+	"fmt"
 )
 
 func main() {
@@ -12,4 +12,3 @@ func main() {
 		fmt.Printf("arg %d=%s\n", i, args[i])
 	}
 }
-
